@@ -2,7 +2,7 @@
 
 **`Software Developer`**
 
-I'm an indie full-stack developer and content creator building my version of the digital world one step at a time. All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code. All video content is built the same way, from ideation and planning, all the way to finalizing the content with artistic touches. I publish that content on my YouTube channel "[ForrestKnight][youtube]" to more than 400k subscribers.
+Sou Rodrigo Mialichi Triboni, estudante de Engenharia de Controle e Automação na Universidade Federal de Uberlândia. No 6º período, tenho paixão pela programação, com habilidades em Python, C, Java e JavaScript. Busco constantes desafios para aplicar soluções criativas e eficientes, visando contribuir para avanços na área.
 
    <p align="left">
       <a href="https://github.com/rodrigotriboni1?tab=followers">
