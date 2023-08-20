@@ -6,9 +6,9 @@ Sou Rodrigo Mialichi Triboni, estudante de Engenharia de Controle e Automação 
 
    <p align="left">
       <a href="https://github.com/rodrigotriboni1?tab=followers">
-         <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/rodrigotriboni1?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
+         <img alt="followers" title="Me siga no GitHub" src="https://custom-icon-badges.demolab.com/github/followers/rodrigotriboni1?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
       <a href="https://github.com/rodrigotriboni1?tab=repositories&sort=stargazers">
-         <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/rodrigotriboni1?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
+         <img alt="total stars" title="Total de estrelas no GitHub" src="https://custom-icon-badges.demolab.com/github/stars/rodrigotriboni1?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
    </p>
 
 ---
@@ -40,7 +40,7 @@ Sou Rodrigo Mialichi Triboni, estudante de Engenharia de Controle e Automação 
 
 ### 📊 Estatísticas
 
-![Forrest's GitHub stats](https://github-readme-stats.vercel.app/api?username=rodrigotriboni1&show_icons=true&theme=gruvbox)
+![Estatísticas do GitHub do Rodrigo](https://github-readme-stats.vercel.app/api?username=rodrigotriboni1&show_icons=true&theme=gruvbox)
 
 <!-- ![GitHub Streak](https://streak-stats.demolab.com?user=ForrestKnight&theme=gruvbox&border_radius=4.5) -->
 
@@ -50,5 +50,4 @@ Sou Rodrigo Mialichi Triboni, estudante de Engenharia de Controle e Automação 
  <summary><h3>👨‍💻Jornada de Programação do Rodrigo</h3></summary>
    Iniciei minha jornada na programação aos 15 anos e, desde então, minha paixão por esse campo tem crescido constantemente. Essa paixão me levou a escolher a engenharia como minha trajetória acadêmica, buscando aprofundar meus conhecimentos em matemática e programação, além de aprender a aplicar ambos em conjunto para o desenvolvimento de projetos mais sólidos e criativos. Atualmente, minha familiaridade é maior com o Android Studio, onde programo em Java, e também com HTML, CSS e PHP. Minha busca incessante por conhecimento me motiva a explorar constantemente novos projetos, enxergando-os como oportunidades valiosas para expandir ainda mais minha expertise.
 
-[website]: https://fkcodes.com
-[youtube]: https://youtube.com/fknight
+[website]: https://rodrigotriboni.com.br
