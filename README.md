@@ -1,8 +1,10 @@
 # 🏃🏼‍♂️ Rodrigo Triboni
 
-**`Software Developer`**
+**`Product Manager & Engineer`**
 
-I am Rodrigo Mialichi Triboni, a student of Control and Automation Engineering at the Federal University of Uberlândia. Currently in the 6th semester, I have a passion for programming and possess skills in Python, C, Java, and JavaScript. I am always seeking constant challenges to apply creative and efficient solutions, aiming to contribute to advancements in the field.
+I am Rodrigo Mialichi Triboni, an Associate Product Manager at [AgRisk](https://agrisk.agr.br) and a Control and Automation Engineering student at the Federal University of Uberlândia. I combine a technical foundation in automation and systems integration with a product mindset — prioritizing roadmaps, running discovery, and shipping. Outside of work, I lead the recovery team at [EPTA](https://teamepta.com), which won 🏆 **1st place in the 500m solid-propellant category at the Latin America Space Challenge (LASC) 2025**, competing against 104 teams from 10 countries.
+
+Portfolio: [rodrigotriboni.com](https://rodrigotriboni.com)
 
    <p align="left">
       <a href="https://github.com/rodrigotriboni1?tab=followers">
@@ -15,26 +17,27 @@ I am Rodrigo Mialichi Triboni, a student of Control and Automation Engineering a
 
 ### 🧰 Languages ​​and Tools
 
-<img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
-<img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-<img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-<img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg"/>
+<img align="left" alt="TypeScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
 <img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+<img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
 <img align="left" alt="React" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 <img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
+<img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+<img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+<img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-<img align="left" alt="Gradle" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" />
 <br />
 
 #
 
 ### 📺 Recent Projects
 
-<!-- BEGIN Projects-CARDS -->
-
-<!-- END Projects-CARDS -->
-
+- **[agent-studio](https://github.com/rodrigotriboni1/agent-studio)** — Governed, multi-tenant, MCP-native builder for agents, RAG, and workflows on LangGraph, LlamaIndex, and LiteLLM.
+- **[llm-bridge](https://github.com/rodrigotriboni1/llm-bridge)** — Multi-provider LLM gateway (GPT, Claude, Kimi, DeepSeek) with automatic failover, built on LiteLLM.
+- **[sistema_realimentado](https://github.com/rodrigotriboni1/sistema_realimentado)** — Feedback control system with a companion web version.
+- **[EININD10_filtro_digital_FIR](https://github.com/rodrigotriboni1/EININD10_filtro_digital_FIR)** — Digital FIR filter applied to industrial instrumentation.
+- **[estufa_esp8266](https://github.com/rodrigotriboni1/estufa_esp8266)** — ESP8266 automation project for greenhouse monitoring.
 
 #
 
@@ -42,12 +45,13 @@ I am Rodrigo Mialichi Triboni, a student of Control and Automation Engineering a
 
 ![Rodrigo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rodrigotriboni1&show_icons=true&theme=gruvbox)
 
-<!-- ![GitHub Streak](https://streak-stats.demolab.com?user=ForrestKnight&theme=gruvbox&border_radius=4.5) -->
+<!-- ![GitHub Streak](https://streak-stats.demolab.com?user=rodrigotriboni1&theme=gruvbox&border_radius=4.5) -->
 
 #
 
 <details>
  <summary><h3>👨‍💻Rodrigo's Programming Journey</h3></summary>
-   I began my journey in programming at the age of 15, and since then, my passion for this field has been steadily growing. This passion has led me to choose engineering as my academic path, aiming to deepen my knowledge in mathematics and programming, while also learning how to apply both in tandem for the development of more robust and creative projects. Currently, I am most familiar with Android Studio, where I program in Java, and also with HTML, CSS, and PHP. My relentless pursuit of knowledge motivates me to constantly explore new projects, viewing them as valuable opportunities to further expand my expertise.
+   I began my journey in programming at the age of 15, and since then, my passion for this field has been steadily growing. This passion led me to choose engineering as my academic path, aiming to deepen my knowledge in mathematics and programming while learning how to apply both in tandem for the development of more robust and creative projects. I started out building mobile interfaces with Android Studio and Java, then moved into process automation and API integration, and now work at the intersection of product and engineering — most recently exploring agent orchestration, RAG, and LLM infrastructure with LangGraph, LlamaIndex, and LiteLLM. My relentless pursuit of knowledge motivates me to constantly explore new projects, viewing them as valuable opportunities to further expand my expertise.
+</details>
 
-[website]: https://rodrigotriboni.com.br
+[website]: https://rodrigotriboni.com
