@@ -58,14 +58,14 @@ export function Contact() {
               </span>
             </a>
             <a
-              href={profile.cvPath}
+              href={t(profile.cvPath)}
               download
               className="group flex items-center gap-2 rounded-md px-2 py-1.5 -mx-2 transition-colors hover:bg-bg-inset"
             >
               <span className="text-accent-green">$</span>
               <span className="text-fg-soft">curl -O</span>
               <span className="text-fg group-hover:text-accent-blue">
-                Rodrigo_Triboni_CV.pdf
+                {t(profile.cvPath).split("/").pop()}
               </span>
             </a>
           </div>

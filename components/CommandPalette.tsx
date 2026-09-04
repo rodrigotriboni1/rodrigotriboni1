@@ -39,10 +39,11 @@ function scrollToSection(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 }
 
-function downloadCv() {
+function downloadCv(lang: "pt" | "en") {
+  const href = pick(profile.cvPath, lang);
   const a = document.createElement("a");
-  a.href = profile.cvPath;
-  a.download = "Rodrigo_Triboni_CV.pdf";
+  a.href = href;
+  a.download = href.split("/").pop() ?? "";
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -181,7 +182,7 @@ export function CommandPaletteProvider({ children }: { children: ReactNode }) {
                       {pick(ui.cmdPalette.openLinkedin, lang)}
                     </Command.Item>
                     <Command.Item
-                      onSelect={() => runAndClose(downloadCv)}
+                      onSelect={() => runAndClose(() => downloadCv(lang))}
                       className="flex cursor-pointer items-center gap-2.5 rounded-md px-2.5 py-2 text-sm text-fg-muted aria-selected:bg-bg-inset aria-selected:text-fg"
                     >
                       <span className="text-accent-amber">↓</span>

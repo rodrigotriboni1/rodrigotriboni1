@@ -92,7 +92,7 @@ export function Hero() {
             {pick(ui.hero.ctaContact, lang)}
           </a>
           <a
-            href={profile.cvPath}
+            href={t(profile.cvPath)}
             download
             className="inline-flex items-center gap-1.5 rounded-md border border-border-strong px-4 py-2.5 text-[13px] font-semibold text-fg transition-colors hover:border-accent-green/50"
           >
