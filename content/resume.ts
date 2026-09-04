@@ -241,12 +241,21 @@ export interface LeadershipEntry {
 
 export const leadership: LeadershipEntry[] = [
   {
-    role: { pt: "Gerente de Recuperação", en: "Recovery Manager" },
+    role: { pt: "Gerente da Recuperação", en: "Recovery Manager" },
     org: "EPTA — Equipe de Propulsão e Tecnologia Aeroespacial",
-    date: { pt: "10/2023 – 01/2026", en: "10/2023 – 01/2026" },
+    date: { pt: "01/2025 – 01/2026", en: "01/2025 – 01/2026" },
     desc: {
-      pt: "Liderei a análise dos dados coletados na recuperação do foguete, com foco em melhoria contínua e ganhos de eficiência e segurança. Equipe conquistou 1º lugar na categoria 500m (propelente sólido) na Latin America Space Challenge (LASC) 2025, entre 104 equipes de 10 países.",
-      en: "Led analysis of data collected during rocket recovery, focused on continuous improvement and gains in efficiency and safety. Team won 1st place in the 500m solid-propellant category at the Latin America Space Challenge (LASC) 2025, competing against 104 teams from 10 countries.",
+      pt: "Liderei a equipe de recuperação no desenvolvimento dos sistemas de descida segura e reutilização de foguetes experimentais, cuidando da gestão do projeto, testes e integração das soluções. Esse trabalho nos levou ao 1º lugar na categoria 500m (propelente sólido) na Latin America Space Challenge (LASC) 2025, entre 104 equipes de 10 países.",
+      en: "Led the recovery team in developing safe-descent and reusability systems for experimental rockets, handling project management, testing, and solution integration. This work led to 1st place in the 500m solid-propellant category at the Latin America Space Challenge (LASC) 2025, competing against 104 teams from 10 countries.",
+    },
+  },
+  {
+    role: { pt: "Membro da Recuperação", en: "Recovery Team Member" },
+    org: "EPTA — Equipe de Propulsão e Tecnologia Aeroespacial",
+    date: { pt: "10/2023 – 01/2025", en: "10/2023 – 01/2025" },
+    desc: {
+      pt: "Colaborei no desenvolvimento e aprimoramento dos mecanismos de descida, participando de testes e otimizações para garantir segurança e eficiência nos lançamentos.",
+      en: "Collaborated on developing and improving descent mechanisms, participating in tests and optimizations to ensure launch safety and efficiency.",
     },
   },
   {
@@ -262,11 +271,19 @@ export const leadership: LeadershipEntry[] = [
     role: { pt: "Diretor de Projetos", en: "Projects Director" },
     org: "Diretório Acadêmico da Fac. de Eng. Elétrica — UFU",
     date: { pt: "04/2024 – 05/2025", en: "04/2024 – 05/2025" },
+    desc: {
+      pt: "Coordenei os projetos do Diretório Acadêmico da Faculdade de Engenharia Elétrica da UFU.",
+      en: "Coordinated projects for the Electrical Engineering Student Board at UFU.",
+    },
   },
   {
     role: { pt: "Diretor de Marketing", en: "Marketing Director" },
     org: "Diretório Acadêmico da Fac. de Eng. Elétrica — UFU",
     date: { pt: "04/2023 – 04/2024", en: "04/2023 – 04/2024" },
+    desc: {
+      pt: "Responsável pela comunicação e divulgação das atividades do Diretório Acadêmico da Faculdade de Engenharia Elétrica da UFU.",
+      en: "Responsible for communications and promotion of the Electrical Engineering Student Board's activities at UFU.",
+    },
   },
   {
     role: {
@@ -275,6 +292,10 @@ export const leadership: LeadershipEntry[] = [
     },
     org: "UFU",
     date: { pt: "09/2024", en: "09/2024" },
+    desc: {
+      pt: "Ministrei workshop sobre manufatura e design de placas de circuito impresso (PCI) para estudantes de graduação da UFU.",
+      en: "Taught a workshop on PCB (printed circuit board) manufacturing and design for undergraduate students at UFU.",
+    },
   },
 ];
 
