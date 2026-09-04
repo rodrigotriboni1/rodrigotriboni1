@@ -19,7 +19,10 @@ export const profile = {
   githubHandle: "github.com/rodrigotriboni1",
   linkedin: "https://www.linkedin.com/in/rodrigotriboni1/",
   linkedinHandle: "linkedin.com/in/rodrigotriboni1",
-  cvPath: "/cv/Rodrigo_Triboni_CV.pdf",
+  cvPath: {
+    pt: "/cv/Rodrigo_Triboni_CV.pdf",
+    en: "/cv/Rodrigo_Triboni_CV_EN.pdf",
+  } as Localized,
 };
 
 export const about = {
@@ -47,17 +50,17 @@ export const experience: ExperienceEntry[] = [
     date: { pt: "02/2026 – Atual", en: "02/2026 – Present" },
     bullets: {
       pt: [
-        "Colaboro na definição e priorização do roadmap de produto, traduzindo necessidades de negócio e feedback de usuários em requisitos funcionais.",
+        "Colaboro na definição e priorização do roadmap de produto em Jira e Notion, traduzindo necessidades de negócio e feedback de usuários em requisitos funcionais.",
         "Conduzo discovery de produto — entrevistas com usuários, análise de dados e mapeamento de processos — para identificar oportunidades de melhoria.",
-        "Escrevo user stories e critérios de aceite junto às equipes de engenharia e design.",
-        "Acompanho métricas de produto para embasar priorizações e decisões orientadas a dados.",
+        "Escrevo user stories e critérios de aceite em Jira, junto às equipes de engenharia e design.",
+        "Acompanho métricas de produto ao longo do roadmap para embasar priorizações e decisões orientadas a dados.",
         "Atuo como ponte entre as áreas de negócio, operações e tecnologia.",
       ],
       en: [
-        "Collaborate on defining and prioritizing the product roadmap, translating business needs and user feedback into functional requirements.",
+        "Collaborate on defining and prioritizing the product roadmap in Jira and Notion, translating business needs and user feedback into functional requirements.",
         "Run product discovery — user interviews, data analysis, and process mapping — to identify improvement opportunities.",
-        "Write user stories and acceptance criteria together with engineering and design teams.",
-        "Track product metrics to inform prioritization and data-driven decisions.",
+        "Write user stories and acceptance criteria in Jira, together with engineering and design teams.",
+        "Track product metrics across the roadmap to inform prioritization and data-driven decisions.",
         "Act as a bridge between business, operations, and technology.",
       ],
     },
@@ -76,11 +79,11 @@ export const experience: ExperienceEntry[] = [
     },
     bullets: {
       pt: [
-        "Implementei e automatizei esteiras de processos, com foco no mapeamento de processos empresariais.",
+        "Implementei e automatizei esteiras de processos no HubSpot CRM, com foco no mapeamento de processos empresariais.",
         "Integrei APIs REST e testei endpoints com Insomnia e Postman, apoiando a confiabilidade das integrações do produto.",
       ],
       en: [
-        "Implemented and automated process workflows, focused on mapping business processes.",
+        "Implemented and automated process workflows in HubSpot CRM, focused on mapping business processes.",
         "Integrated REST APIs and tested endpoints with Insomnia and Postman, supporting integration reliability.",
       ],
     },
@@ -171,12 +174,14 @@ export const skillGroups: SkillGroup[] = [
       "product_discovery",
       "user_stories_&_acceptance_criteria",
       "data_driven_decisions",
+      "Jira",
+      "Notion",
     ],
   },
   {
     key: "automation",
     title: { pt: "automação_&_integração", en: "automation_&_integration" },
-    items: ["REST_APIs", "Insomnia", "Postman", "process_automation"],
+    items: ["REST_APIs", "Insomnia", "Postman", "HubSpot_CRM", "process_automation"],
   },
   {
     key: "control",
@@ -222,8 +227,8 @@ export const leadership: LeadershipEntry[] = [
     org: "EPTA — Equipe de Propulsão e Tecnologia Aeroespacial",
     date: { pt: "10/2023 – 01/2026", en: "10/2023 – 01/2026" },
     desc: {
-      pt: "Liderei a análise dos dados coletados na recuperação do foguete, com foco em melhoria contínua e ganhos de eficiência e segurança.",
-      en: "Led analysis of data collected during rocket recovery, focused on continuous improvement and gains in efficiency and safety.",
+      pt: "Liderei a análise dos dados coletados na recuperação do foguete, com foco em melhoria contínua e ganhos de eficiência e segurança. Equipe conquistou 1º lugar na categoria 500m (propelente sólido) na Latin America Space Challenge (LASC) 2025, entre 104 equipes de 10 países.",
+      en: "Led analysis of data collected during rocket recovery, focused on continuous improvement and gains in efficiency and safety. Team won 1st place in the 500m solid-propellant category at the Latin America Space Challenge (LASC) 2025, competing against 104 teams from 10 countries.",
     },
   },
   {
