@@ -131,6 +131,24 @@ export interface OtherProject {
 
 export const otherProjects: OtherProject[] = [
   {
+    name: "agent-studio",
+    desc: {
+      pt: "Builder multi-tenant e MCP-native para agentes, RAG e workflows, com camada de governança sobre LangGraph, LlamaIndex e LiteLLM.",
+      en: "Multi-tenant, MCP-native builder for agents, RAG, and workflows — governance layer on top of LangGraph, LlamaIndex, and LiteLLM.",
+    },
+    tags: ["Python", "TypeScript", "LangGraph", "MCP"],
+    url: "https://github.com/rodrigotriboni1/agent-studio",
+  },
+  {
+    name: "llm-bridge",
+    desc: {
+      pt: "Gateway multi-provedor de LLMs (GPT, Claude, Kimi, DeepSeek) com failover automático, construído sobre LiteLLM.",
+      en: "Multi-provider LLM gateway (GPT, Claude, Kimi, DeepSeek) with automatic failover, built on LiteLLM.",
+    },
+    tags: ["Python", "LiteLLM"],
+    url: "https://github.com/rodrigotriboni1/llm-bridge",
+  },
+  {
     name: "estufa_esp8266",
     desc: {
       pt: "Projeto pessoal de automação com ESP8266, aplicado ao monitoramento de uma estufa.",
