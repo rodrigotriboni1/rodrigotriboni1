@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #0a0e14;
+  --color-bg-elevated: #10151d;
+  --color-bg-inset: #0d1219;
+  --color-border: #1e2733;
+  --color-border-strong: #2a3644;
+
+  --color-fg: #d6e2f0;
+  --color-fg-muted: #8a97a8;
+  --color-fg-soft: #56626f;
+  --color-comment: #5c7080;
+
+  --color-accent-green: #5fd68e;
+  --color-accent-blue: #5aa9e6;
+  --color-accent-purple: #b48ead;
+  --color-accent-amber: #e3b341;
+  --color-accent-red: #f47067;
+}
+
+@theme inline {
+  --color-bg: var(--color-bg);
+  --color-bg-elevated: var(--color-bg-elevated);
+  --color-bg-inset: var(--color-bg-inset);
+  --color-border: var(--color-border);
+  --color-border-strong: var(--color-border-strong);
+
+  --color-fg: var(--color-fg);
+  --color-fg-muted: var(--color-fg-muted);
+  --color-fg-soft: var(--color-fg-soft);
+  --color-comment: var(--color-comment);
+
+  --color-accent-green: var(--color-accent-green);
+  --color-accent-blue: var(--color-accent-blue);
+  --color-accent-purple: var(--color-accent-purple);
+  --color-accent-amber: var(--color-accent-amber);
+  --color-accent-red: var(--color-accent-red);
+
+  --font-mono: var(--font-mono), "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-green);
+}
+
+/* blinking cursor used across the editor theme */
+@keyframes blink-caret {
+  0%, 45% { opacity: 1; }
+  50%, 95% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.caret {
+  animation: blink-caret 1s step-end infinite;
+}
