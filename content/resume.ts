@@ -131,6 +131,15 @@ export interface OtherProject {
 
 export const otherProjects: OtherProject[] = [
   {
+    name: "sealedenv",
+    desc: {
+      pt: "Segredos criptografados para processos Node — decripta valores enc:/enc-file: do process.env com uma linha, zero mudança de código. AES-256-GCM + OS Keychain.",
+      en: "Encrypted secrets for Node processes — decrypts enc:/enc-file: values from process.env with one line, zero code changes. AES-256-GCM + OS keychain.",
+    },
+    tags: ["TypeScript", "Node.js", "Security"],
+    url: "https://github.com/rodrigotriboni1/sealedenv",
+  },
+  {
     name: "agent-studio",
     desc: {
       pt: "Builder multi-tenant e MCP-native para agentes, RAG e workflows, com camada de governança sobre LangGraph, LlamaIndex e LiteLLM.",
