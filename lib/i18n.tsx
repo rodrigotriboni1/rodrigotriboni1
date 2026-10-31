@@ -3,6 +3,7 @@
 import {
   createContext,
   useContext,
+  useEffect,
   useState,
   useCallback,
   useMemo,
@@ -31,6 +32,11 @@ const LanguageContext = createContext<LanguageContextValue | null>(null);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>("pt");
+
+  // Keep <html lang> in sync so screen readers pick the right voice.
+  useEffect(() => {
+    document.documentElement.lang = lang === "pt" ? "pt-BR" : "en";
+  }, [lang]);
 
   const toggle = useCallback(() => {
     setLang((prev) => (prev === "pt" ? "en" : "pt"));
@@ -94,13 +100,5 @@ export const ui = {
     ready: { pt: "pronto", en: "ready" },
     branch: { pt: "main", en: "main" },
     openTo: { pt: "aberto a oportunidades", en: "open to opportunities" },
-  },
-  tabs: {
-    about: "about.tsx",
-    experience: "experience.json",
-    project: "project.py",
-    skills: "skills.yaml",
-    education: "education.md",
-    contact: "contact.sh",
   },
 } as const;

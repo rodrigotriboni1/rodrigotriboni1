@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import { sections } from "@/lib/sections";
 import { useActiveSection } from "@/lib/useActiveSection";
-import { useLanguage } from "@/lib/i18n";
+import { useLanguage, ui, pick } from "@/lib/i18n";
 import { useCommandPalette } from "@/components/CommandPalette";
 
 function scrollToSection(id: string) {
@@ -17,6 +17,12 @@ export function EditorTabBar() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-bg/85 backdrop-blur-md">
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:absolute focus:left-3 focus:top-2 focus:rounded-md focus:bg-bg-elevated focus:px-3 focus:py-1.5 focus:text-[13px] focus:text-accent-green"
+      >
+        {pick(ui.skipLink, lang)}
+      </a>
       <div className="mx-auto flex max-w-5xl items-center gap-1 overflow-x-auto px-3 sm:px-6">
         <div className="flex shrink-0 items-center pr-3">
           <span className="flex h-7 w-7 items-center justify-center rounded border border-border-strong text-[11px] font-bold text-accent-green">
