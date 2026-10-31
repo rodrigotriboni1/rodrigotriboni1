@@ -11,7 +11,6 @@ const jetbrainsMono = localFont({
     { path: "./fonts/jetbrains-mono-500.woff2", weight: "500", style: "normal" },
     { path: "./fonts/jetbrains-mono-600.woff2", weight: "600", style: "normal" },
     { path: "./fonts/jetbrains-mono-700.woff2", weight: "700", style: "normal" },
-    { path: "./fonts/jetbrains-mono-800.woff2", weight: "800", style: "normal" },
   ],
   display: "swap",
 });

@@ -150,8 +150,10 @@ export function CommandPaletteProvider({ children }: { children: ReactNode }) {
                     <Command.Item
                       onSelect={() =>
                         runAndClose(() => {
-                          navigator.clipboard.writeText(profile.email);
-                          setToast(pick(ui.cmdPalette.emailCopied, lang));
+                          navigator.clipboard.writeText(profile.email).then(
+                            () => setToast(pick(ui.cmdPalette.emailCopied, lang)),
+                            () => setToast(profile.email),
+                          );
                         })
                       }
                       className="flex cursor-pointer items-center gap-2.5 rounded-md px-2.5 py-2 text-sm text-fg-muted aria-selected:bg-bg-inset aria-selected:text-fg"
