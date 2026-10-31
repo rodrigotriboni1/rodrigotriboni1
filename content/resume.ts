@@ -230,6 +230,31 @@ export const skillGroups: SkillGroup[] = [
     ],
   },
   {
+    key: "ai-tooling",
+    title: { pt: "ia_&_agentes", en: "ai_&_agents" },
+    items: [
+      "Claude_Code",
+      "firstmate",
+      "ponytail",
+      "superpowers",
+      "caveman",
+      "Vercel_plugin",
+    ],
+  },
+  {
+    key: "web-stack",
+    title: { pt: "stack_web", en: "web_stack" },
+    items: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind_CSS",
+      "Motion",
+      "cmdk",
+      "ESLint",
+    ],
+  },
+  {
     key: "cloud",
     title: { pt: "cloud_&_analytics", en: "cloud_&_analytics" },
     items: ["AWS_Academy_Cloud", "data_analytics"],
