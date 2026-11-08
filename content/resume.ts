@@ -272,7 +272,7 @@ export const skillGroups: SkillGroup[] = [
   {
     key: "languages",
     title: { pt: "idiomas", en: "languages" },
-    items: ["portuguese: native", "english: advanced"],
+    items: ["portuguese: native", "english: intermediate"],
   },
 ];
 
@@ -362,7 +362,7 @@ export const education = {
       pt: "Curso Completo Android Material Design",
       en: "Complete Android Material Design Course",
     },
-    { pt: "Inglês — Avançado", en: "English — Advanced" },
+    { pt: "Inglês — Intermediário", en: "English — Intermediate" },
     {
       pt: "Data Analytics aplicado a negócios",
       en: "Data Analytics for Business",
