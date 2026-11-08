@@ -3,12 +3,12 @@ import type { Localized } from "@/lib/i18n";
 export const profile = {
   name: "Rodrigo Mialichi Triboni",
   role: {
-    pt: "Product Manager & Engenheiro",
-    en: "Product Manager & Engineer",
+    pt: "Product + AI Builder",
+    en: "Product + AI Builder",
   } as Localized,
   tagline: {
-    pt: "Product Manager com base técnica em automação e integração de sistemas, unindo visão de produto e execução de engenharia.",
-    en: "Product Manager with a technical foundation in automation and systems integration, blending product vision with engineering execution.",
+    pt: "Construo produtos com IA generativa de ponta a ponta, com agentes, RAG, servidores MCP e gateways multi-LLM, unindo visão de produto e execução técnica.",
+    en: "I build generative AI products end to end, with agents, RAG, MCP servers and multi-LLM gateways, combining product vision with technical execution.",
   } as Localized,
   location: {
     pt: "Uberlândia, MG — Brasil",
@@ -28,8 +28,8 @@ export const profile = {
 export const about = {
   title: { pt: "Sobre", en: "About" } as Localized,
   text: {
-    pt: "Estudante de Engenharia de Controle e Automação na UFU, com experiência prática em automação de processos, integração de APIs e desenvolvimento de produtos digitais. Atualmente atuo como Associate Product Manager na AgRisk, unindo visão técnica e foco no usuário para priorizar roadmap, conduzir discovery e apoiar decisões orientadas a dados. Busco aprofundar minha atuação em Product Management na área de tecnologia.",
-    en: "Control and Automation Engineering student at UFU, with hands-on experience in process automation, API integration, and digital product development. I currently work as an Associate Product Manager at AgRisk, combining technical insight with a user-first mindset to prioritize roadmaps, run discovery, and support data-driven decisions. I'm looking to keep growing my career in Product Management within tech.",
+    pt: "Estudante de Engenharia de Controle e Automação (UFU, formatura prevista 12/2026) e Associate Product Manager na AgRisk. Construo produtos com IA generativa de ponta a ponta, agentes com tool calling, RAG, servidores MCP e gateways multi-LLM, em Python e TypeScript. Combino visão de produto e execução técnica para transformar problemas de negócio em produtos e automações que funcionam.",
+    en: "Control and Automation Engineering student (UFU, expected graduation 12/2026) and Associate Product Manager at AgRisk. I build generative AI products end to end, agents with tool calling, RAG, MCP servers and multi-LLM gateways, in Python and TypeScript. I combine product vision with technical execution to turn business problems into products and automations that work.",
   } as Localized,
 };
 
@@ -50,18 +50,14 @@ export const experience: ExperienceEntry[] = [
     date: { pt: "02/2026 – Atual", en: "02/2026 – Present" },
     bullets: {
       pt: [
-        "Colaboro na definição e priorização do roadmap de produto em Jira e Notion, traduzindo necessidades de negócio e feedback de usuários em requisitos funcionais.",
-        "Conduzo discovery de produto — entrevistas com usuários, análise de dados e mapeamento de processos — para identificar oportunidades de melhoria.",
-        "Escrevo user stories e critérios de aceite em Jira, junto às equipes de engenharia e design.",
-        "Acompanho métricas de produto ao longo do roadmap para embasar priorizações e decisões orientadas a dados.",
-        "Atuo como ponte entre as áreas de negócio, operações e tecnologia.",
+        "Defino e priorizo o roadmap, conduzo discovery (entrevistas, análise de dados, mapeamento de processos) e escrevo user stories com critérios de aceite junto de engenharia e design.",
+        "Desenvolvo, com vibe coding, o servidor MCP do AgFlow CRM (produto da AgRisk): ele expõe o CRM a agentes de IA, e tudo o que o usuário faz na plataforma pode ser feito pelo agente dele.",
+        "Acompanho métricas de produto e conecto negócio, operações e tecnologia.",
       ],
       en: [
-        "Collaborate on defining and prioritizing the product roadmap in Jira and Notion, translating business needs and user feedback into functional requirements.",
-        "Run product discovery — user interviews, data analysis, and process mapping — to identify improvement opportunities.",
-        "Write user stories and acceptance criteria in Jira, together with engineering and design teams.",
-        "Track product metrics across the roadmap to inform prioritization and data-driven decisions.",
-        "Act as a bridge between business, operations, and technology.",
+        "I define and prioritize the roadmap, run discovery (interviews, data analysis, process mapping) and write user stories with acceptance criteria alongside engineering and design.",
+        "I build, with vibe coding, the MCP server for AgRisk's AgFlow CRM: it exposes the CRM to AI agents, so anything a user does in the platform can be done by their own agent.",
+        "I track product metrics and connect business, operations and technology.",
       ],
     },
   },
@@ -79,12 +75,10 @@ export const experience: ExperienceEntry[] = [
     },
     bullets: {
       pt: [
-        "Implementei e automatizei esteiras de processos no HubSpot CRM, com foco no mapeamento de processos empresariais.",
-        "Integrei APIs REST e testei endpoints com Insomnia e Postman, apoiando a confiabilidade das integrações do produto.",
+        "Automatizei esteiras de processos e integrei APIs REST, validando endpoints com Insomnia e Postman.",
       ],
       en: [
-        "Implemented and automated process workflows in HubSpot CRM, focused on mapping business processes.",
-        "Integrated REST APIs and tested endpoints with Insomnia and Postman, supporting integration reliability.",
+        "I automated process pipelines and integrated REST APIs, validating endpoints with Insomnia and Postman.",
       ],
     },
   },
@@ -95,12 +89,10 @@ export const experience: ExperienceEntry[] = [
     date: { pt: "09/2022 – 09/2023", en: "09/2022 – 09/2023" },
     bullets: {
       pt: [
-        "Desenvolvi interfaces móveis centradas no usuário com Android Studio, Firebase e TensorFlow, com foco em automação de processos.",
-        "Responsável pelos projetos Plantai e Avocai, atuando na manipulação de dados e na entrega de soluções de ponta a ponta.",
+        "Desenvolvi apps móveis com Android Studio, Firebase e TensorFlow; fui responsável, de ponta a ponta, pelos projetos Plantai e Avocai.",
       ],
       en: [
-        "Built user-centered mobile interfaces with Android Studio, Firebase, and TensorFlow, focused on process automation.",
-        "Responsible for the Plantai and Avocai projects, handling data processing and end-to-end delivery.",
+        "I built mobile apps with Android Studio, Firebase and TensorFlow, and owned the Plantai and Avocai projects end to end.",
       ],
     },
   },
@@ -355,6 +347,23 @@ export const education = {
   } as Localized,
   courses: [
     {
+      pt: "ONE Tech Foundation Back End — Alura (2026)",
+      en: "ONE Tech Foundation Back End — Alura (2026)",
+    },
+    { pt: "Git e Versionamento — Ada", en: "Git and Version Control — Ada" },
+    {
+      pt: "Foundational C# — freeCodeCamp",
+      en: "Foundational C# — freeCodeCamp",
+    },
+    {
+      pt: "ReactJS — Samsung Ocean",
+      en: "ReactJS — Samsung Ocean",
+    },
+    {
+      pt: "Desenvolvimento de Jogos RV/RA com Unity 3D — GRVA",
+      en: "VR/AR Game Development with Unity 3D — GRVA",
+    },
+    {
       pt: "Treinamento de Programação — Codesys V3",
       en: "Programming Training — Codesys V3",
     },
@@ -377,7 +386,7 @@ export const education = {
 export const contact = {
   title: { pt: "Contato", en: "Contact" } as Localized,
   sub: {
-    pt: "Aberto a conversas sobre oportunidades em Product Management e tecnologia.",
-    en: "Open to conversations about opportunities in Product Management and technology.",
+    pt: "Aberto a conversas sobre oportunidades em IA, produto e tecnologia.",
+    en: "Open to conversations about opportunities in AI, product and technology.",
   } as Localized,
 };
